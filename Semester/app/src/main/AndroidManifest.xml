@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:label="TNGo"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+        tools:targetApi="31">
+        <activity
+            android:name=".ChangePassword"
+            android:exported="false" />
+        <activity
+            android:name=".PersonalInfor"
+            android:exported="false" />
+        <activity
+            android:name=".WalletEnd"
+            android:exported="false" />
+        <activity
+            android:name=".ReportEnd"
+            android:exported="false" />
+        <activity
+            android:name=".Report"
+            android:exported="false" />
+        <activity
+            android:name=".TrafficStation"
+            android:exported="false" />
+        <activity
+            android:name=".Traffic"
+            android:exported="false" />
+        <activity
+            android:name=".EndJourney"
+            android:exported="false" />
+        <activity
+            android:name=".Journey"
+            android:exported="false" />
+        <activity
+            android:name=".CaptureAct"
+            android:screenOrientation="portrait"
+            android:stateNotNeeded="true"
+            android:theme="@style/zxing_CaptureTheme" />
+        <activity
+            android:name=".Trips"
+            android:exported="false" />
+        <activity
+            android:name=".Transaction_History"
+            android:exported="false" />
+        <activity
+            android:name=".ScanQR"
+            android:exported="false" />
+        <activity
+            android:name=".Wallet"
+            android:exported="false" />
+        <activity
+            android:name=".HomePage"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDByJBIig6Nv3hqK1cErecgWOc9D8nQv9s" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

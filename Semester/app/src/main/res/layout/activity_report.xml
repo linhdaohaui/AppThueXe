@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".Report">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/underline"
+            android:gravity="center"
+            android:paddingBottom="20dp"
+            android:text="Báo cáo sự cố"
+            android:textColor="#0d6efd"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="30dp"
+            android:paddingBottom="10dp"
+            android:text="Vấn đề của tôi"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/eVanDeCuaToi"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/customer_border"
+            android:hint="Viết vấn đề"
+            android:paddingLeft="20dp"
+            android:paddingBottom="10dp"
+            android:textColor="#343a40"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="30dp"
+            android:paddingBottom="10dp"
+            android:text="Vị trí của tôi"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/eViTri"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/customer_border"
+            android:hint="Vị trí của tôi"
+            android:paddingLeft="20dp"
+            android:paddingBottom="10dp"
+            android:textColor="#343a40"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnGoiHotline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/customer_border_1"
+            android:text="Gọi hotline"
+            android:textColor="#fd7e14"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnGui"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/customer_button"
+            android:text="Gửi"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

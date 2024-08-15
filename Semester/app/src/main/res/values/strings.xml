@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Semester</string>
+
+    <string-array name="listTraffic">
+        <item>Xe đạp cơ</item>
+        <item>Xe đạp điện</item>
+    </string-array>
+
+    <string-array name="listLicensePlate">
+        <item>A09-287.444</item>
+        <item>A09-287.445</item>
+        <item>A09-287.446</item>
+        <item>A09-287.447</item>
+        <item>A09-287.448</item>
+        <item>A09-287.449</item>
+        <item>A09-287.450</item>
+        <item>A09-287.451</item>
+        <item>A09-287.452</item>
+        <item>A09-287.453</item>
+    </string-array>
+
+    <string-array name="listStationName">
+        <item>096 - Trạm đối diện 1152 đường Láng</item>
+        <item>097 - Trạm đối diện 1030 đường Láng</item>
+        <item>009 - Trạm Số 568 Đường Bưởi</item>
+        <item>095 - Trạm Đại Học Giao Thông Vận Tải</item>
+        <item>031 - Trạm Chung Cư B12C10</item>
+        <item>034 - Trạm Hồ Tây - Đường Lạc Long Quân</item>
+        <item>099 - Trạm Văn Phòng TNGo Hà Nội</item>
+        <item>098 - Trạm đối diện 808 đường Láng</item>
+        <item>029 - Trạm Số 187 Trích Sài</item>
+        <item>075 - Trạm Hầm Đi Bộ Khuất Duy Tiến</item>
+    </string-array>
+
+    <string-array name="listStationAddress">
+        <item>Đối diện số 1152 đường Láng - Phường Láng Thượng - Quận Đống Đa - TP.Hà Nội</item>
+        <item>Đối diện số 1030 đường Láng - Phường Láng Thượng - Quận Đống Đa - TP.Hà Nội</item>
+        <item>Số 568 Đường Bưởi - Phường Vĩnh Phúc - Quận Ba Đình - TP.Hà Nội</item>
+        <item>Trạm trung chuyển Cầu Giấy - Phường Láng Thượng - Quận Đống Đa - TP.Hà Nội</item>
+        <item>Số 80 Ngõ 28 Xuân La - Phường Xuân La - Quận Tây Hồ - TP.Hà Nội</item>
+        <item>Số 292 Đường Lạc Long Quân - Phường Xuân La - Quận Tây Hồ - TP.Hà Nội</item>
+        <item>Số 446 Đội Cấn - Phường Cống Vị - Quận Ba Đình - TP.Hà Nội</item>
+        <item>Đối diện số 808 đường Láng - Quận Đống Đa - TP.Hà Nội</item>
+        <item>Số 187 Trích Sài - Phường Bưởi - Quận Tây Hồ - TP.Hà Nội</item>
+        <item>Số 360 Khuất Duy Tiến - Phường Thanh Xuân Trung - Quận Thanh Xuân - TP Hà Nội</item>
+    </string-array>
+
+    <string-array name="longitude">
+        <item>105.7357817</item>
+        <item>105.807445</item>
+        <item>105.797444</item>
+        <item>105.807444</item>
+        <item>105.817444</item>
+        <item>105.817444</item>
+        <item>105.797444</item>
+        <item>105.808725</item>
+        <item>105.483300</item>
+        <item>105.792222</item>
+    </string-array>
+
+    <string-array name="latitude">
+        <item>21.0538602</item>
+        <item>21.004222</item>
+        <item>21.014222</item>
+        <item>21.004222</item>
+        <item>21.024222</item>
+        <item>21.024222</item>
+        <item>21.014222</item>
+        <item>21.004222</item>
+        <item>21.015800</item>
+        <item>20.985333</item>
+    </string-array>
+
+    <string-array name="listBanking">
+        <item>Vietcombak - NHTMCP NGOAI THUONG VN</item>
+        <item>Agribank - NH NONG NGHIEP PTNT VN</item>
+        <item>Viettinbank - NHTMCP CONG THUONG VN</item>
+        <item>Techcombank - NHTMCP KY THUONG VN</item>
+        <item>MB - NHTMCP QUAN DOI</item>
+        <item>ACB - NHTMCP A CHAU</item>
+        <item>BaoVietBank - NHTMCP BAO VIET</item>
+        <item>DongA Bank - NHTMCP DONG A</item>
+        <item>Eximbank - NHTMCP XUAT NHAP KHAU</item>
+        <item>NamABank - NHTMCP NAM A</item>
+    </string-array>
+
+
+</resources>
